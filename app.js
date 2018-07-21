@@ -41,7 +41,7 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
 if (gamePlaying){
 	scores[activePlayer]+= roundScore0; //update global score
 
-	if (scores[activePlayer] >= 10) { //winner!
+	if (scores[activePlayer] >= 100) { //winner!
 			document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
 			document.querySelector('.player-0-panel').classList.remove('active');
 			document.querySelector('.player-1-panel').classList.remove('active');
